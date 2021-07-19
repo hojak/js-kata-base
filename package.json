@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "mocha": "^9.0.2"
+  },
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:html",
+    "lint:js": "eslint src/js/*.js test/js/*.js",
+    "lint:jsfix": "eslint --fix src/js/*.js test/js/*.js",
+    "test": "nyc --reporter=text mocha --recursive",
+    "test:unit": "mocha --recursive test/js",
+    "test:watch": "mocha \"test/**/*.js\" --watch --watch-extensions js",
+    "complexity:src": "complexity-report-html src && mv .complexity-report/report.html .complexity-report/src.html",
+    "complexity:test": "complexity-report-html test && mv .complexity-report/report.html .complexity-report/test.html",
+    "complexity": "npm run complexity:src; npm run complexity:test"
+  },
+  "dependencies": {}
+}
