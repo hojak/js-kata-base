@@ -1,9 +1,8 @@
 tasks:
- - name: Run NPM install
-   init: npm install
- - name: Install mob.sh
-   init: curl -sL install.mob.sh | sudo sh
- - name: Run Tests
+ - name: Setup Gitpod and Run Tests
+   init: |
+    npm install
+    curl -sL install.mob.sh | sudo sh
    command: npm run test:watch
    
 vscode:
