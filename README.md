@@ -1,7 +1,7 @@
 # js-kata-base
 Basic Repo to fork for a Javascript Coding Kata
 
-[![Open This Repo in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#/from-referrer)
+[![Open This Repo in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ## Useful Online Tools for a Coding Dojo
 * https://mobti.me/
