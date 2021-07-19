@@ -15,10 +15,11 @@ Basic Repo to fork for a Javascript Coding Kata
 * https://codingdojo.org/KataCatalogue/
 * http://codekata.com/
 
-## Getting Started
+## Getting Started (Each Mob Member)
+0. Crate a Git(hub.io) Account
 1. Fork this repo
 2. Preparation
-    *  Checkout the new repo in in gitpod.io using the corresponding link
+    *  Checkout the new repo in in gitpod.io using the corresponding link above
 
     or
 
@@ -28,22 +29,24 @@ Basic Repo to fork for a Javascript Coding Kata
         * https://mob.sh/ 
     * clone the new repo locally and open it your IDE
     * run ```npm install```
+3. Make sure a ``npm run test:watch`` works
+4. You're ready to start
 
-3. Start Your Mob Session
+## The Mob Session Itself
 
-## Mob Session
-
-* Define the roles ``driver``, ``navigator`` and ``consultants``
-* choose a kata
-* Set up a basic cycling timer timer
-* get dirty :)
+* Clarify the roles ``driver``, ``navigator`` and ``consultants``
+* Choose a kata
+* Set up a basic cycling timer
+* Get dirty :)
 
     repeat:
     * run ``mob start`` to start a round
-    * run ``mob next`` for a hand over
+    * do some coding
+    * run ``mob next`` for a hand over when the cycle timer tell you to
 
     finish with your session ``mob done`` and a corresponding meaningful commit message
 
+* make sure to do a debriefing at the end of or after the session
 
 ## Hints / Recommendations
 
