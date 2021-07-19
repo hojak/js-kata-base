@@ -3,3 +3,7 @@ tasks:
    command: npm start
  - init: setup mob.sh
    command: curl -sL install.mob.sh | sudo sh
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
