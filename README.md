@@ -27,6 +27,7 @@ Basic Repo to fork for a Javascript Coding Kata
         * IDE suitable for JavaScript (e.g. visual studio Code, https://code.visualstudio.com/) 
         * npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
         * https://mob.sh/ 
+        * oh Git, of course, you need git...
     * clone the new repo locally and open it your IDE
     * run ```npm install```
 3. Make sure a ``npm run test:watch`` works
