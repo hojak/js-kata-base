@@ -1,5 +1,5 @@
 # js-kata-base
-Basic Repo to fork for a Javascript Coding Kata
+Basic Repo to fork or branch for a Javascript Coding Kata
 
 [![Open This Repo in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
@@ -15,11 +15,11 @@ Basic Repo to fork for a Javascript Coding Kata
 * https://codingdojo.org/KataCatalogue/
 * http://codekata.com/
 
-## Getting Started (Each Mob Member)
-0. Crate a Git(hub.io) Account
+## Getting Started 
+0. Create a Git(hub.io) account
 1. Fork this repo
-2. Preparation
-    *  Checkout the new repo in in gitpod.io using the corresponding link above
+2. Individual preparation
+    *  Checkout the new repo with gitpod.io, e.g. using the corresponding link above
 
     or
 
@@ -30,7 +30,7 @@ Basic Repo to fork for a Javascript Coding Kata
         * oh Git, of course, you need git...
     * clone the new repo locally and open it your IDE
     * run ```npm install```
-3. Make sure a ``npm run test:watch`` works
+3. Make sure a ``npm run test:unit`` works.
 4. You're ready to start
 
 ## The Mob Session Itself
@@ -40,19 +40,19 @@ Basic Repo to fork for a Javascript Coding Kata
 * Set up a basic cycling timer
 * Get dirty :)
 
-    repeat:
-    * run ``mob start`` to start a round
-    * do some coding
-    * run ``mob next`` for a hand over when the cycle timer tell you to
+    Repeat:
+    * run ``mob start`` to start a round,
+    * do some coding, 
+    * run ``mob next`` for a hand over when the cycle timer tells you to.
 
-    finish with your session ``mob done`` and a corresponding meaningful commit message
+    Finish with your session ``mob done`` and a corresponding meaningful commit message
 
-* make sure to do a debriefing at the end of or after the session
+* Make sure to do a debriefing at the end of or after the session.
 
 ## Hints / Recommendations
 
-* Use Mocha for Testing
+* Mocha for Testing
     * https://mochajs.org/
-* Use chai for Assertions
+* Chai for Assertions
     * https://www.npmjs.com/package/chai
 * Run ``npm run test:watch`` to run a continuous test
